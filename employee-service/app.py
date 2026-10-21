@@ -11,7 +11,7 @@ def health():
 def employees():
     return jsonify(
         service="employee-service",
-        version="1.0",
+        version="1.1",
         hostname=socket.gethostname(),
         employees=[
             {"id": 1, "name": "Vibhor Dewangan", "department_id": 1},
